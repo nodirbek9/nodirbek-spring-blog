@@ -14,6 +14,7 @@ public class PostService {
 
     private List<Post> posts = new ArrayList<>();
 
-
+    public List<Post> getAllPosts() {
+        return posts;
     }
 }
